@@ -2,6 +2,7 @@ import React from "react";
 import {Accordion} from "./components/Accordion";
 import Counter from "./components/Counter";
 import Search from './components/Search';
+import DebounceSearch from './components/DebounceSearch';
 
 const items = [
     {
@@ -23,7 +24,8 @@ export function App(){
     <div>
       {/* <Accordion items={items}/>
       <Counter /> */}
-      <Search />
+      {/* <Search /> */}
+      <DebounceSearch />
     </div>
   );
 }
