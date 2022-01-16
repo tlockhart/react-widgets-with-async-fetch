@@ -4,6 +4,7 @@ import Counter from "./components/Counter";
 import Search from "./components/Search";
 import DebounceSearch from "./components/DebounceSearch";
 import Dropdown from "./components/Dropdown";
+import Translate from "./components/Translate";
 
 const options = [
     {
@@ -36,11 +37,11 @@ const items = [
 ];
 
 export function App() {
-    const [selected, setSelected] = useState(options[0]);
-    const [showDropdown, setShowDropdown] = useState(true);
+    // const [selected, setSelected] = useState(options[0]);
+    // const [showDropdown, setShowDropdown] = useState(true);
 
     const setSelectedOption = (data) => {
-        setSelected(data);
+        // setSelected(data);
         console.log(data);
     }
     return (
@@ -48,13 +49,14 @@ export function App() {
             {/* <Accordion items={items}/>
       <Counter /> */}
             {/* <DebounceSearch /> */}
-            <button onClick={() => setShowDropdown(!showDropdown)}>ToggleDropdown</button>
-            {showDropdown ?
-                <Dropdown
-                    selected={selected}
-                    onSelectedChange={setSelected}
-                    options={options}
-                /> : null}
+            {/*<button onClick={() => setShowDropdown(!showDropdown)}>ToggleDropdown</button>*/}
+            {/*{showDropdown ?*/}
+            {/*    <Dropdown*/}
+            {/*        selected={selected}*/}
+            {/*        onSelectedChange={setSelected}*/}
+            {/*        options={options}*/}
+            {/*    /> : null}*/}
+            <Translate/>
         </div>
     );
 }
