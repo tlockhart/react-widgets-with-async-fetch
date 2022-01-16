@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-form/static/js/main.9cca392a.js",
-    "index.html": "/react-form/index.html",
-    "main.9cca392a.js.map": "/react-form/static/js/main.9cca392a.js.map"
+    "main.js": "/react-widgets-with-async-fetch/static/js/main.9cca392a.js",
+    "index.html": "/react-widgets-with-async-fetch/index.html",
+    "main.9cca392a.js.map": "/react-widgets-with-async-fetch/static/js/main.9cca392a.js.map"
   },
   "entrypoints": [
     "static/js/main.9cca392a.js"
