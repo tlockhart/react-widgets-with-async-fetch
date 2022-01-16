@@ -3,13 +3,21 @@ import React, {useState} from 'react';
 import Dropdown from './Dropdown';
 import Convert from './Convert';
 
+// https://cloud.google.com/translate/docs/languages
 const options = [{
     label: 'Afrikaans', value: 'af'
 }, {
     label: 'Arabic', value: 'ar'
 }, {
     label: 'Hindi', value: 'hi'
-}];
+},
+    {
+        label: 'Chinese', value: 'zh'
+    },
+    {
+        label: 'Japanese', value: 'ja'
+    },
+];
 
 const Translate = () => {
     const [language, setLanguage] = useState(options[0]);
