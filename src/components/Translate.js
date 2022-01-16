@@ -1,5 +1,7 @@
+// API KEY: AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
 import React, {useState} from 'react';
 import Dropdown from './Dropdown';
+import Convert from './Convert';
 
 const options = [{
     label: 'Afrikaans', value: 'af'
@@ -25,6 +27,9 @@ const Translate = () => {
             selected={language}
             onSelectedChange={setLanguage}
         />
+        <hr/>
+        <h3 className="ui header"> Output < /h3>
+        <Convert text={text} language={language}/>
     </div>);
 };
 
