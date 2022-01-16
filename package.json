@@ -1,6 +1,6 @@
 {
   "name": "widgets",
-  "homepage": "https://tlockhart.github.io/react-form/",
+  "homepage": "https://tlockhart.github.io/react-widgets-with-async-fetch/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
